@@ -1,0 +1,42 @@
+# ---- personal state, never commit ----
+watch_later/
+memo-history.log
+bookmarks.json
+mpv/script-opts/eq.conf          # your own equalizer curve
+
+# ---- third-party, fetched by tools/setup.ps1 ----
+mpv/scripts/uosc/
+mpv/scripts/thumbfast.lua
+mpv/scripts/memo.lua
+mpv/scripts/autoload.lua
+mpv/scripts/quality-menu.lua
+mpv/scripts/sponsorblock_minimal.lua
+mpv/shaders/
+mpv/fonts/
+
+# ---- LUTs: generated or owned by you, not redistributed here ----
+mpv/luts/
+*.cube
+
+# ---- binaries and runtimes ----
+*.exe
+*.dll
+*.pyd
+*.zip
+*.7z
+mpv/vapoursynth/
+
+# ---- test artefacts ----
+tests/media/
+tests/out/
+tests/results/
+*.mkv
+*.mp4
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
