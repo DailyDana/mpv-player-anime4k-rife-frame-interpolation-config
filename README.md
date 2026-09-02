@@ -1,4 +1,5 @@
-# mpv-anime-config
+# mpv-player-anime4k-rife-frame-interpolation-config
+
 
 An mpv configuration built around **anime upscaling (Anime4K / FSRCNNX)** and
 **RIFE frame interpolation**, with a right-click menu system that reports what
